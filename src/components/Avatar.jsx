@@ -87,7 +87,7 @@ export function Avatar(props) {
         actions[animation].fadeOut(0.5)
       }
       
-    }, [animation, props.viewport, playAudio])
+    }, [animation, props.viewport, playAudio, script])
 
       
     useFrame(() => {
